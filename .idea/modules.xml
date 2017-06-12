@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SkillTracker.iml" filepath="$PROJECT_DIR$/.idea/SkillTracker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../TestProjects/.idea/TestProjects.iml" filepath="$PROJECT_DIR$/../TestProjects/.idea/TestProjects.iml" />
     </modules>
   </component>
 </project>
