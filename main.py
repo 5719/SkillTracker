@@ -20,7 +20,8 @@ totalSkillTime += skillTime
 skills.update({skillName: totalSkillTime})
 
 # Updates the file
-# TODO Change so it writes from dictionary
 skillFile = open("skills.txt", "w")
-skillFile.write(skillName + ": " + str(skillTime))
+
+for k in skills.keys():
+    skillFile.write(k + ": " + str(skills[k]))
 skillFile.close()
